@@ -33,7 +33,7 @@ print(rh.text)
 print("**********")
 
 class ExtractImages(scrapy.Spider):
-    name = "extract_imagesr"
+    name = "extract_images"
     start_urls = ['http://172.18.58.238/multi/']
 
     def parse(self, response):
